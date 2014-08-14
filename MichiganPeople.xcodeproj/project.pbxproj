@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE20199D7B190071DF95 /* AppDelegate.swift */; };
+		466BFE23199D7B190071DF95 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE22199D7B190071DF95 /* MasterViewController.swift */; };
+		466BFE25199D7B190071DF95 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE24199D7B190071DF95 /* DetailViewController.swift */; };
+		466BFE28199D7B190071DF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE26199D7B190071DF95 /* Main.storyboard */; };
+		466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE29199D7B190071DF95 /* Images.xcassets */; };
+		466BFE36199D7B190071DF95 /* MichiganPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466BFE30199D7B190071DF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BFE13199D7B190071DF95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466BFE1A199D7B190071DF95;
+			remoteInfo = MichiganPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466BFE1B199D7B190071DF95 /* MichiganPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichiganPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BFE1F199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466BFE20199D7B190071DF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466BFE22199D7B190071DF95 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		466BFE24199D7B190071DF95 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		466BFE27199D7B190071DF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466BFE29199D7B190071DF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		466BFE2F199D7B190071DF95 /* MichiganPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichiganPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BFE34199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganPeopleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466BFE18199D7B190071DF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BFE2C199D7B190071DF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466BFE12199D7B190071DF95 = {
+			isa = PBXGroup;
+			children = (
+				466BFE1D199D7B190071DF95 /* MichiganPeople */,
+				466BFE32199D7B190071DF95 /* MichiganPeopleTests */,
+				466BFE1C199D7B190071DF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466BFE1C199D7B190071DF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE1B199D7B190071DF95 /* MichiganPeople.app */,
+				466BFE2F199D7B190071DF95 /* MichiganPeopleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466BFE1D199D7B190071DF95 /* MichiganPeople */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE20199D7B190071DF95 /* AppDelegate.swift */,
+				466BFE22199D7B190071DF95 /* MasterViewController.swift */,
+				466BFE24199D7B190071DF95 /* DetailViewController.swift */,
+				466BFE26199D7B190071DF95 /* Main.storyboard */,
+				466BFE29199D7B190071DF95 /* Images.xcassets */,
+				466BFE1E199D7B190071DF95 /* Supporting Files */,
+			);
+			path = MichiganPeople;
+			sourceTree = "<group>";
+		};
+		466BFE1E199D7B190071DF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE1F199D7B190071DF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		466BFE32199D7B190071DF95 /* MichiganPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */,
+				466BFE33199D7B190071DF95 /* Supporting Files */,
+			);
+			path = MichiganPeopleTests;
+			sourceTree = "<group>";
+		};
+		466BFE33199D7B190071DF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE34199D7B190071DF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466BFE1A199D7B190071DF95 /* MichiganPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466BFE39199D7B190071DF95 /* Build configuration list for PBXNativeTarget "MichiganPeople" */;
+			buildPhases = (
+				466BFE17199D7B190071DF95 /* Sources */,
+				466BFE18199D7B190071DF95 /* Frameworks */,
+				466BFE19199D7B190071DF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MichiganPeople;
+			productName = MichiganPeople;
+			productReference = 466BFE1B199D7B190071DF95 /* MichiganPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466BFE2E199D7B190071DF95 /* MichiganPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466BFE3C199D7B190071DF95 /* Build configuration list for PBXNativeTarget "MichiganPeopleTests" */;
+			buildPhases = (
+				466BFE2B199D7B190071DF95 /* Sources */,
+				466BFE2C199D7B190071DF95 /* Frameworks */,
+				466BFE2D199D7B190071DF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466BFE31199D7B190071DF95 /* PBXTargetDependency */,
+			);
+			name = MichiganPeopleTests;
+			productName = MichiganPeopleTests;
+			productReference = 466BFE2F199D7B190071DF95 /* MichiganPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466BFE13199D7B190071DF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GRL5;
+				TargetAttributes = {
+					466BFE1A199D7B190071DF95 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					466BFE2E199D7B190071DF95 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 466BFE1A199D7B190071DF95;
+					};
+				};
+			};
+			buildConfigurationList = 466BFE16199D7B190071DF95 /* Build configuration list for PBXProject "MichiganPeople" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466BFE12199D7B190071DF95;
+			productRefGroup = 466BFE1C199D7B190071DF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466BFE1A199D7B190071DF95 /* MichiganPeople */,
+				466BFE2E199D7B190071DF95 /* MichiganPeopleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466BFE19199D7B190071DF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BFE28199D7B190071DF95 /* Main.storyboard in Resources */,
+				466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BFE2D199D7B190071DF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466BFE17199D7B190071DF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BFE25199D7B190071DF95 /* DetailViewController.swift in Sources */,
+				466BFE23199D7B190071DF95 /* MasterViewController.swift in Sources */,
+				466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BFE2B199D7B190071DF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BFE36199D7B190071DF95 /* MichiganPeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466BFE31199D7B190071DF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466BFE1A199D7B190071DF95 /* MichiganPeople */;
+			targetProxy = 466BFE30199D7B190071DF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466BFE26199D7B190071DF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466BFE27199D7B190071DF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466BFE37199D7B190071DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466BFE38199D7B190071DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466BFE3A199D7B190071DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MichiganPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466BFE3B199D7B190071DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MichiganPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466BFE3D199D7B190071DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MichiganPeopleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichiganPeople.app/MichiganPeople";
+			};
+			name = Debug;
+		};
+		466BFE3E199D7B190071DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MichiganPeopleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MichiganPeople.app/MichiganPeople";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466BFE16199D7B190071DF95 /* Build configuration list for PBXProject "MichiganPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BFE37199D7B190071DF95 /* Debug */,
+				466BFE38199D7B190071DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466BFE39199D7B190071DF95 /* Build configuration list for PBXNativeTarget "MichiganPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BFE3A199D7B190071DF95 /* Debug */,
+				466BFE3B199D7B190071DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466BFE3C199D7B190071DF95 /* Build configuration list for PBXNativeTarget "MichiganPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BFE3D199D7B190071DF95 /* Debug */,
+				466BFE3E199D7B190071DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466BFE13199D7B190071DF95 /* Project object */;
+}
