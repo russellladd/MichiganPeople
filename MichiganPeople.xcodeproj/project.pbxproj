@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE20199D7B190071DF95 /* AppDelegate.swift */; };
-		466BFE23199D7B190071DF95 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE22199D7B190071DF95 /* MasterViewController.swift */; };
-		466BFE25199D7B190071DF95 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE24199D7B190071DF95 /* DetailViewController.swift */; };
+		466BFE23199D7B190071DF95 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE22199D7B190071DF95 /* SearchViewController.swift */; };
+		466BFE25199D7B190071DF95 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE24199D7B190071DF95 /* PersonViewController.swift */; };
 		466BFE28199D7B190071DF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE26199D7B190071DF95 /* Main.storyboard */; };
 		466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE29199D7B190071DF95 /* Images.xcassets */; };
 		466BFE36199D7B190071DF95 /* MichiganPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */; };
+		466BFE4C199D7C460071DF95 /* Wolverine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466BFE46199D7BFD0071DF95 /* Wolverine.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +24,34 @@
 			remoteGlobalIDString = 466BFE1A199D7B190071DF95;
 			remoteInfo = MichiganPeople;
 		};
+		466BFE45199D7BFD0071DF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 461733B11990A39200408DFE;
+			remoteInfo = Wolverine;
+		};
+		466BFE47199D7BFD0071DF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 461733BC1990A39200408DFE;
+			remoteInfo = WolverineTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		466BFE1B199D7B190071DF95 /* MichiganPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichiganPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BFE1F199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466BFE20199D7B190071DF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		466BFE22199D7B190071DF95 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		466BFE24199D7B190071DF95 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		466BFE22199D7B190071DF95 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		466BFE24199D7B190071DF95 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		466BFE27199D7B190071DF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		466BFE29199D7B190071DF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		466BFE2F199D7B190071DF95 /* MichiganPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichiganPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BFE34199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganPeopleTests.swift; sourceTree = "<group>"; };
+		466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Wolverine.xcodeproj; path = ../Wolverine/Wolverine.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466BFE4C199D7C460071DF95 /* Wolverine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +79,7 @@
 				466BFE1D199D7B190071DF95 /* MichiganPeople */,
 				466BFE32199D7B190071DF95 /* MichiganPeopleTests */,
 				466BFE1C199D7B190071DF95 /* Products */,
+				466BFE3F199D7BD60071DF95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				466BFE20199D7B190071DF95 /* AppDelegate.swift */,
-				466BFE22199D7B190071DF95 /* MasterViewController.swift */,
-				466BFE24199D7B190071DF95 /* DetailViewController.swift */,
+				466BFE22199D7B190071DF95 /* SearchViewController.swift */,
+				466BFE24199D7B190071DF95 /* PersonViewController.swift */,
 				466BFE26199D7B190071DF95 /* Main.storyboard */,
 				466BFE29199D7B190071DF95 /* Images.xcassets */,
 				466BFE1E199D7B190071DF95 /* Supporting Files */,
@@ -110,6 +128,23 @@
 				466BFE34199D7B190071DF95 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		466BFE3F199D7BD60071DF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		466BFE41199D7BFD0071DF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466BFE46199D7BFD0071DF95 /* Wolverine.framework */,
+				466BFE48199D7BFD0071DF95 /* WolverineTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +214,12 @@
 			mainGroup = 466BFE12199D7B190071DF95;
 			productRefGroup = 466BFE1C199D7B190071DF95 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 466BFE41199D7BFD0071DF95 /* Products */;
+					ProjectRef = 466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				466BFE1A199D7B190071DF95 /* MichiganPeople */,
@@ -186,6 +227,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		466BFE46199D7BFD0071DF95 /* Wolverine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Wolverine.framework;
+			remoteRef = 466BFE45199D7BFD0071DF95 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		466BFE48199D7BFD0071DF95 /* WolverineTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WolverineTests.xctest;
+			remoteRef = 466BFE47199D7BFD0071DF95 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		466BFE19199D7B190071DF95 /* Resources */ = {
@@ -211,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466BFE25199D7B190071DF95 /* DetailViewController.swift in Sources */,
-				466BFE23199D7B190071DF95 /* MasterViewController.swift in Sources */,
+				466BFE25199D7B190071DF95 /* PersonViewController.swift in Sources */,
+				466BFE23199D7B190071DF95 /* SearchViewController.swift in Sources */,
 				466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +459,7 @@
 				466BFE3B199D7B190071DF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		466BFE3C199D7B190071DF95 /* Build configuration list for PBXNativeTarget "MichiganPeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +468,7 @@
 				466BFE3E199D7B190071DF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
