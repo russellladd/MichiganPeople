@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46439449199E54B9000E1861 /* Wolverine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466BFE46199D7BFD0071DF95 /* Wolverine.framework */; };
+		4643944A199E54B9000E1861 /* Wolverine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 466BFE46199D7BFD0071DF95 /* Wolverine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE20199D7B190071DF95 /* AppDelegate.swift */; };
 		466BFE23199D7B190071DF95 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE22199D7B190071DF95 /* SearchViewController.swift */; };
 		466BFE25199D7B190071DF95 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE24199D7B190071DF95 /* PersonViewController.swift */; };
 		466BFE28199D7B190071DF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE26199D7B190071DF95 /* Main.storyboard */; };
 		466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE29199D7B190071DF95 /* Images.xcassets */; };
 		466BFE36199D7B190071DF95 /* MichiganPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */; };
-		466BFE4C199D7C460071DF95 /* Wolverine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466BFE46199D7BFD0071DF95 /* Wolverine.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4643944B199E54B9000E1861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 461733B01990A39200408DFE;
+			remoteInfo = Wolverine;
+		};
 		466BFE30199D7B190071DF95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 466BFE13199D7B190071DF95 /* Project object */;
@@ -40,6 +48,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4643944D199E54B9000E1861 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4643944A199E54B9000E1861 /* Wolverine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		466BFE1B199D7B190071DF95 /* MichiganPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MichiganPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BFE1F199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466BFE4C199D7C460071DF95 /* Wolverine.framework in Frameworks */,
+				46439449199E54B9000E1861 /* Wolverine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +179,12 @@
 				466BFE17199D7B190071DF95 /* Sources */,
 				466BFE18199D7B190071DF95 /* Frameworks */,
 				466BFE19199D7B190071DF95 /* Resources */,
+				4643944D199E54B9000E1861 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4643944C199E54B9000E1861 /* PBXTargetDependency */,
 			);
 			name = MichiganPeople;
 			productName = MichiganPeople;
@@ -286,6 +310,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4643944C199E54B9000E1861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Wolverine;
+			targetProxy = 4643944B199E54B9000E1861 /* PBXContainerItemProxy */;
+		};
 		466BFE31199D7B190071DF95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 466BFE1A199D7B190071DF95 /* MichiganPeople */;
