@@ -17,10 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         
         let splitViewController = self.window!.rootViewController as UISplitViewController
-        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as UINavigationController
-        navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
-        splitViewController.delegate = self
         
+        splitViewController.preferredDisplayMode = .AllVisible
+        splitViewController.preferredPrimaryColumnWidthFraction = 0.4
+        splitViewController.maximumPrimaryColumnWidth = 480.0
+        splitViewController.delegate = self
+
         return true
     }
     
@@ -31,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         if let secondaryAsNavController = secondaryViewController as? UINavigationController {
             if let topAsDetailController = secondaryAsNavController.topViewController as? PersonViewController {
                 
-                if topAsDetailController.detailItem == nil {
+                if topAsDetailController.personResult == nil {
                     // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
                     return true
                 }

@@ -12,9 +12,9 @@
 		466BFE21199D7B190071DF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE20199D7B190071DF95 /* AppDelegate.swift */; };
 		466BFE23199D7B190071DF95 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE22199D7B190071DF95 /* SearchViewController.swift */; };
 		466BFE25199D7B190071DF95 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE24199D7B190071DF95 /* PersonViewController.swift */; };
-		466BFE28199D7B190071DF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE26199D7B190071DF95 /* Main.storyboard */; };
 		466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BFE29199D7B190071DF95 /* Images.xcassets */; };
 		466BFE36199D7B190071DF95 /* MichiganPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */; };
+		46A99AA319CD49CF001C9A50 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A99AA219CD49CF001C9A50 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +68,12 @@
 		466BFE20199D7B190071DF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466BFE22199D7B190071DF95 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		466BFE24199D7B190071DF95 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
-		466BFE27199D7B190071DF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		466BFE29199D7B190071DF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		466BFE2F199D7B190071DF95 /* MichiganPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichiganPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BFE34199D7B190071DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466BFE35199D7B190071DF95 /* MichiganPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganPeopleTests.swift; sourceTree = "<group>"; };
 		466BFE40199D7BFD0071DF95 /* Wolverine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Wolverine.xcodeproj; path = ../Wolverine/Wolverine.xcodeproj; sourceTree = "<group>"; };
+		46A99AA219CD49CF001C9A50 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 				466BFE20199D7B190071DF95 /* AppDelegate.swift */,
 				466BFE22199D7B190071DF95 /* SearchViewController.swift */,
 				466BFE24199D7B190071DF95 /* PersonViewController.swift */,
-				466BFE26199D7B190071DF95 /* Main.storyboard */,
+				46A99AA219CD49CF001C9A50 /* Storyboard.storyboard */,
 				466BFE29199D7B190071DF95 /* Images.xcassets */,
 				466BFE1E199D7B190071DF95 /* Supporting Files */,
 			);
@@ -274,8 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466BFE28199D7B190071DF95 /* Main.storyboard in Resources */,
 				466BFE2A199D7B190071DF95 /* Images.xcassets in Resources */,
+				46A99AA319CD49CF001C9A50 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,17 +321,6 @@
 			targetProxy = 466BFE30199D7B190071DF95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		466BFE26199D7B190071DF95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				466BFE27199D7B190071DF95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		466BFE37199D7B190071DF95 /* Debug */ = {
